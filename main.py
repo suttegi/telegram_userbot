@@ -19,7 +19,7 @@ app = Client("my_bot", api_id=api_id, api_hash=api_hash)
 def handle_message(client, message):
 
     user_input = message.text
-    prompt = f'я буду ввести с тобой диалог, пиши неформально как в переписке, с маленькой буквы, пиши очень коротко. я твой собеседник, сообщение которое будет написано после точки, мое тебе сообщение которое пришло тебе в соц. сети, будь заинтересован в разговоре со мной.' + user_input
+    prompt =  user_input
     response = openai.ChatCompletion.create(
         model=os.environ.get('OPENAI_MODEL', 'gpt-3.5-turbo'),
         messages=[{"role": "user", "content": prompt}],
