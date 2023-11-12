@@ -1,16 +1,13 @@
 # Telegram Chatbot with OpenAI GPT-3.5 Turbo
-Этот проект представляет собой телеграм-бота, который использует библиотеку Pyrogram для обработки сообщений и API GPT-3.5 Turbo от OpenAI для генерации ответов на текстовые запросы пользователей.
+This project is a Telegram chatbot that uses the Pyrogram library to process messages and OpenAI's GPT-3.5 Turbo API to generate responses to user text queries.
 
- # Особенности:
-Бот способен взаимодействовать с пользователями в режиме чата и генерировать текстовые ответы на их запросы.
-Использует мощную модель GPT-3.5 Turbo от OpenAI для генерации интеллектуальных ответов.
+## Features:
+- The bot can interact with users in chat mode and generate textual responses to their queries.
+- It utilizes the powerful GPT-3.5 Turbo model from OpenAI to generate intelligent responses.
 
+## Notes:
+- Make sure you have an OpenAI account and an API key to use the GPT-3.5 Turbo model.
+- This bot was created for demonstration purposes and can be extended for real-world use.
 
-# Примечания:
-Убедитесь, что у вас есть учетная запись OpenAI и API-ключ для использования модели GPT-3.5 Turbo.
-Этот бот был создан в рамках демонстрации и может быть расширен для реальных целей.
-Лицензия:
-Этот проект распространяется под лицензией MIT. Подробности можно найти в файле LICENSE.
-
-# Связь:
-tg: @synapsye
+## Contact:
+Telegram: @synapsye
