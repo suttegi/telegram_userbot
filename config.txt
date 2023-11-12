@@ -1,0 +1,4 @@
+
+api_id = "YOUR API ID"
+api_hash = "YOUR API HASH"
+openai.api_key ="YOUR OPENAI API"
